@@ -79,16 +79,18 @@
                 <h1>
 <a id="user-content-code-for-the-paper-dispatcher-a-message-passing-approach-to-text-generation" class="anchor" href="#code-for-the-paper-dispatcher-a-message-passing-approach-to-text-generation" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Code for the paper <a href="">Dispatcher: A Message Passing Approach To Text Generation</a>
 </h1>
-<p>This code illustrates the potential of the Dispatcher architecture.
-The paper is not published yet, please keep it confidential.</p>
+<p>This code illustrates the Dispatcher algorithm.
+The paper is not published yet, please keep it confidential.
+This zip file does not contain pre-trained models.
+A version of the code with the trained models
+is available from this anonymous Dropbox <a href="https://www.dropbox.com/s/h6u0d2z8if2mqwt/dispatcher_acl.tar.bz2?dl=0" rel="nofollow">link</a> (1.2GB).</p>
 <h2>
 <a id="user-content-installation" class="anchor" href="#installation" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Installation</h2>
 <div class="highlight highlight-source-shell"><pre>virtualenv --python=/usr/bin/python3 .env
 pip install -r requirements.txt</pre></div>
 <h2>
 <a id="user-content-training-the-models" class="anchor" href="#training-the-models" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Training the models</h2>
-<p>Pre-trained models are already included in the data/ folder.
-However the models can be trained anew using the following scripts</p>
+<p>The models can be trained anew using the following scripts</p>
 <div class="highlight highlight-source-shell"><pre>train_dispatcher_after_openwebtext_wikitext2.py
 train_dispatcher_after_openwebtext_wikitext103.py
 train_msa_wikitext2.py
