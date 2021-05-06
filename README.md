@@ -1,10 +1,6 @@
-# Code for the paper [Dispatcher: A Message Passing Approach To Text Generation]()
+# Code for the paper [Dispatcher: A Message Passing Approach To Language Modelling]()
 
-This code illustrates the Dispatcher algorithm. 
-The paper is not published yet, please keep it confidential.
-This zip file does not contain pre-trained models.
-A version of the code with the trained models 
-is available from this anonymous Dropbox [link](https://www.dropbox.com/s/h6u0d2z8if2mqwt/dispatcher_acl.tar.bz2?dl=0) (1.2GB).
+This code illustrates the Dispatcher algorithm as presented in the paper. 
 
 ## Installation
 ```bash
