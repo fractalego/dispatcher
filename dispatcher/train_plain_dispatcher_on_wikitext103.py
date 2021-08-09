@@ -71,8 +71,11 @@ def batchify(data, bsz):
     return data.long().to(device)
 
 
+<<<<<<< HEAD
 # scheduler = torch.optim.lr_scheduler.StepLR(optimizer, 1.0, gamma=0.95)
 
+=======
+>>>>>>> 1bfd03a... Initial commit
 import time
 
 train_data = batchify(train_txt, batch_size)
@@ -107,7 +110,11 @@ def train():
             print('| epoch {:3d} | {:5d}/{:5d} batches | '
                   'lr {:02.2f} | '  # ms/batch {:5.2f} | '
                   'loss {:5.2f} | ppl {:8.2f} |'.format(
+<<<<<<< HEAD
                 epoch, batch, len(train_data) // bptt,  # scheduler.get_lr()[0],
+=======
+                epoch, batch, len(train_data) // bptt,
+>>>>>>> 1bfd03a... Initial commit
                               elapsed * 1000 / log_interval,
                 cur_loss, math.exp(cur_loss)))
             total_loss = 0
@@ -150,8 +157,6 @@ if __name__ == '__main__':
         if val_loss < best_val_loss:
             best_val_loss = val_loss
             best_model = model
-
-        # scheduler.step()
 
         torch.save({
             'epoch': epoch,

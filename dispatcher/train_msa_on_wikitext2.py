@@ -98,7 +98,7 @@ def train():
                   'lr {:02.2f} | '  # ms/batch {:5.2f} | '
                   'loss {:5.2f} | ppl {:8.2f} |'
                   'perplexity {:8.2f} |'.format(
-                epoch, batch, len(train_data) // bptt,  # scheduler.get_lr()[0],
+                epoch, batch, len(train_data) // bptt,
                               elapsed * 1000 / log_interval,
                 cur_loss, math.exp(cur_loss), math.exp(cur_loss * emsize / bptt)))
             total_loss = 0
