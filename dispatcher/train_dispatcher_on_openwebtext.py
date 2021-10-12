@@ -11,7 +11,7 @@ import subprocess
 
 from tqdm import tqdm
 from transformers import GPT2Tokenizer
-from dispatcher.msa_model import TransformerModel
+from dispatcher.dispatcher_model import DispatcherModel
 
 batch_size = 6
 eval_batch_size = 2
@@ -52,7 +52,7 @@ def count_parameters(model):
     return sum(p.numel() for p in model.parameters() if p.requires_grad)
 
 
-model = TransformerModel(ntokens, emsize, nhead, nhid, nlayers).to(device)
+model = DispatcherModel(ntokens, emsize, nhead, nhid, nlayers).to(device)
 print('num_parameters:', count_parameters(model))
 optimizer = torch.optim.Adam(model.parameters(), lr=lr)
 
