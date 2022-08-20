@@ -95,20 +95,12 @@ def train():
             print('| epoch {:3d} | {:5d}/{:5d} batches | '
                   'lr {:02.2f} | '  # ms/batch {:5.2f} | '
                   'loss {:5.2f} | ppl {:8.2f} |'.format(
-<<<<<<< HEAD
-                epoch, batch, len(train_data) // bptt,  # scheduler.get_lr()[0],
-=======
                 epoch, batch, len(train_data) // bptt,
->>>>>>> 1bfd03a... Initial commit
+
                               elapsed * 1000 / log_interval,
                 cur_loss, math.exp(cur_loss)))
             total_loss = 0
             start_time = time.time()
-<<<<<<< HEAD
-            #print('average time:', np.mean(times))
-=======
-            # print('average time:', np.mean(times))
->>>>>>> 1bfd03a... Initial commit
             times = []
 
 
