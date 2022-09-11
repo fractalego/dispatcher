@@ -2,6 +2,8 @@
 
 This code illustrates the Dispatcher algorithm as presented in the paper. 
 
+![](images/shift_and_sum.gif)
+
 ## Installation
 ```bash
 virtualenv --python=/usr/bin/python3 .env
