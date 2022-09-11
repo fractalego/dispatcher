@@ -1,6 +1,8 @@
-# Code for the paper [Dispatcher: A Message Passing Approach To Language Modelling]()
+# Code for the paper [Dispatcher: A Message Passing Approach To Language Modelling](https://arxiv.org/abs/2105.03994)
 
 This code illustrates the Dispatcher algorithm as presented in the paper. 
+
+![shift_and_sum](https://user-images.githubusercontent.com/9697264/189527146-e9ba47d0-81fb-4f5e-8bfb-be8f25769a2b.gif)
 
 ## Installation
 ```bash
