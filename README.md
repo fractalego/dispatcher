@@ -2,7 +2,7 @@
 
 This code illustrates the Dispatcher algorithm as presented in the paper. 
 
-![shift_and_sum](https://user-images.githubusercontent.com/9697264/189527146-e9ba47d0-81fb-4f5e-8bfb-be8f25769a2b.gif)
+![shift_and_sum](https://user-images.githubusercontent.com/9697264/189537231-93665c0e-e420-4d3e-be2c-7f8d1b8c0e16.gif)
 
 ## Installation
 ```bash
