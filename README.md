@@ -89,7 +89,7 @@ The two models are nearly identical, with the exception of the Dispatcher layers
 ## Multihead Dispatcher
 The code above is the one used in the paper. After submission, a new model was found that performs better with multiple heads. 
 This model can be found in this repo at [dispatcher/dispatcher_model_multihead.py](dispatcher/dispatcher_model_multihead.py).
-Please use this latest model if you plan for relevant multihead results.
+Please use this latest model if you plan for competitive multihead results.
 
 
 ## Run the code
