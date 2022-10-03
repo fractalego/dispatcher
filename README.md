@@ -1,4 +1,4 @@
-# Code for the paper [Dispatcher: A Message Passing Approach To Language Modelling](https://arxiv.org/abs/2105.03994)
+# Code for the paper [Dispatcher: A Message Passing Approach To Language Modelling](https://aclanthology.org/2022.clasp-1.3/)
 
 This code illustrates the Dispatcher algorithm as presented in the paper. 
 
